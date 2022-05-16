@@ -5,8 +5,13 @@ public class EmployeeTestFixture : BaseFixture
 {
     public EmployeeTestFixture() : base() { }
 
-    public string GetValidEmployeeName()
+    public string GetValidEmployeeFirstName()
     {
-        return Faker.Person.FullName;
+        return Faker.Person.FirstName;
+    }
+
+    public string GetValidEmployeeLastName()
+    {
+        return Faker.Person.LastName;
     }
 }
