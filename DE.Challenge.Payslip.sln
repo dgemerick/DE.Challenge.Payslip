@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DE.Challenge.Payslip.UnitTests", "test\DE.Challenge.Payslip.UnitTests\DE.Challenge.Payslip.UnitTests.csproj", "{286C5DAA-47E9-4AA6-8E96-E5785886BE6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DE.Challenge.Payslip.Domain", "src\DE.Challenge.Payslip.Domain\DE.Challenge.Payslip.Domain.csproj", "{4C979FD8-4480-41FA-9EAA-2C49796DFFC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{286C5DAA-47E9-4AA6-8E96-E5785886BE6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{286C5DAA-47E9-4AA6-8E96-E5785886BE6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{286C5DAA-47E9-4AA6-8E96-E5785886BE6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C979FD8-4480-41FA-9EAA-2C49796DFFC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C979FD8-4480-41FA-9EAA-2C49796DFFC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C979FD8-4480-41FA-9EAA-2C49796DFFC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C979FD8-4480-41FA-9EAA-2C49796DFFC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
